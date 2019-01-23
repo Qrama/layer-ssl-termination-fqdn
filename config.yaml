@@ -4,6 +4,11 @@ options:
     default: ''
     description: |
       Space-separated list of domain names. These will share the same certificate.
+  nodeport:
+    type: string
+    default: ''
+    description: |
+      Nodeport on kubernetes cluster that is used for the required service to connect this fqdn.
   credentials:
     type: string
     default: ''

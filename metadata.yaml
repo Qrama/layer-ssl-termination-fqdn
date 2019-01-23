@@ -12,6 +12,6 @@ requires:
   ssl-termination:
     interface: ssl-termination
     scope: container
-  website:
-    interface: http
+  kubernetes-deployer:
+    interface: kubernetes-deployer
 series: ['xenial']

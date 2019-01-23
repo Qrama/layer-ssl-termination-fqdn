@@ -1,4 +1,4 @@
 includes: ['layer:basic',
            'interface:ssl-termination',
-           'interface:http']
+           'interface:kubernetes-deployer']
 repo: git@github.com:tengu-team/layer-ssl-termination-fqdn.git
